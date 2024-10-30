@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'bmlt/bmlt-wordpress-satellite-plugin',
+        'pretty_version' => '3.11.4',
+        'version' => '3.11.4.0',
+        'reference' => 'a911dbbbedbc99f70b1dbba5305be6116aa89282',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'bmlt/bmlt-satellite-base-class' => array(
+            'pretty_version' => '3.11.12',
+            'version' => '3.11.12.0',
+            'reference' => '11e39b91e6a9e3a3686b74f3204173c83627d3c9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bmlt/bmlt-satellite-base-class',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'bmlt/bmlt-satellite-driver' => array(
+            'pretty_version' => '1.1.1',
+            'version' => '1.1.1.0',
+            'reference' => '432333ecd0d8eefb71bfd1671c6e1ee9b9fb5e6b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bmlt/bmlt-satellite-driver',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'bmlt/bmlt-wordpress-satellite-plugin' => array(
+            'pretty_version' => '3.11.4',
+            'version' => '3.11.4.0',
+            'reference' => 'a911dbbbedbc99f70b1dbba5305be6116aa89282',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
